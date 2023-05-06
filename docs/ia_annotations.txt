@@ -1,0 +1,27 @@
+Best of classifiers: 
+ - Decision_tree:										     	(Média - test_accuracy)		(Média - train_accuracy)
+	# all features (17 features) 									(97%)
+	# all features with MBI and without Height and Weight (15 features)		(96%)
+	# less features with MBI and without Height and Weight (12 features)		(95.5%-96%)
+	# less features without MBI (13 features)							(93%-93.5%)
+	# all features without MBI (16 features) 							(93%)
+ - SVM:
+	# all features (17 features) 									(77.2%)				(74.5%)
+	# all features with MBI and without Height and Weight (15 features)		(89.7%)				(90.9%)
+	# less features with MBI and without Height and Weight (12 features)		(89.9%)				(91.2%)
+	# less features without MBI (13 features)							(63.4%)				(56.3%)
+	# all features without MBI (16 features) 							(63.7%) 				(56.5%)
+ - K-NN:
+	# all features (17 features) 									(95.8%)				(97.2%)
+	# all features with MBI and without Height and Weight (15 features)		(95.1%)				(97.7%)
+	# less features with MBI and without Height and Weight (12 features)		(94.9%)				(97.85%)
+	# less features without MBI (13 features)							(89.5%)				(93.1%)
+	# all features without MBI (16 features) 							(88.5%)				(93.7%)				
+ - Neural Networks
+	# all features (17 features) 									(18.75%)				(15.9%)
+	# all features with MBI and without Height and Weight (15 features)		(error)				(error)	dont know why, and dont care xD
+	# less features with MBI and without Height and Weight (12 features)		(error)				(error)	same as above
+	# less features without MBI (13 features)							(17.7%)				(17.9%)
+	# all features without MBI (16 features) 							(17.7%)				(17.9%)	
+
+Best cv is 15 for our dataset
